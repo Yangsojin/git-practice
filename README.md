@@ -21,10 +21,13 @@
 - git push:로컬 저장소에서 완료된 커밋 내역들을 원격 저장소(GitHub)로 전송하여 업로드함.
 
 ## CLI 실습 기록
-- 사용한 명령어 순서:
-- 생성한 브랜치명:
+- 사용한 명령어 순서:git init -> git status -> git add -> git commit -> git log -> git remote -> git push -> git checkout -> git branch
+- 생성한 브랜치명:feature/profile
 - 커밋 메시지 3개:
-- 어려웠던 점:
+  1. First commit: 자기소개 작성
+  2. Second commit: Git 명령어 정리 추가
+  3. Third commit: 실습 기록 추가
+- 어려웠던 점:Git의 로컬 저장소와 원격 저장소의 개념 차이를 이해하는 것과, 소스트리 같은 프로그램 없이 터미널 명령어로만 버전을 쪼개어 커밋하는 과정이 처음에는 낯설고 어려웠습니다. 하지만 단계를 나누어 실습하면서 명령어의 흐름을 파악할 수 있었습니다.
 
 ## PR 실습 기록
 - PR 제목:
